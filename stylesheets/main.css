@@ -144,3 +144,14 @@ mark {
 .border-info {
     border-color: #17a2b8 !important;
 }
+
+table, th, td {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+th, td {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
